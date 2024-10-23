@@ -1,3 +1,4 @@
+package ru.ivan;
 import java.util.List;
 
 
@@ -27,7 +28,8 @@ public class UserCrud implements Crud<UserCrud> {
     }
 
     @Override
-    public void create(UserCrud model) {Repository.users.add(model);
+    public void create(UserCrud model) {
+        Repository.users.add(model);
     }
 
     @Override
@@ -61,7 +63,6 @@ public class UserCrud implements Crud<UserCrud> {
     public void setSoname(String soname) {this.soname = soname;}
     public void setEmail(String email) {this.email = email;}
     public void setPassword(String password) {this.password = password;}
-
     @Override
     public String toString() {
         return "UserCrud{" +

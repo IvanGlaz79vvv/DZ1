@@ -1,4 +1,6 @@
-public class GiftCrud implements Crud<GiftCrud>{
+package ru.ivan;
+
+public class GiftCrud implements Crud<GiftCrud> {
     @Override
     public void create(GiftCrud model) {
 

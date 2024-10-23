@@ -1,3 +1,5 @@
+package ru.ivan;
+
 public interface Crud<T> {
     void create(T model);
     void update(T model);
