@@ -1,7 +1,8 @@
 package ru.ivan;
 import java.util.List;
+/*import lombok.Getter;
 
-
+@Getter*/
 public class UserCrud implements Crud<UserCrud> {
     private int id;
     private String name;
